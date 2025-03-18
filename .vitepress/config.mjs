@@ -20,11 +20,11 @@ export default defineConfig({
       // { text: "Home", link: "/" },
       {
         text: "前端",
-        items: [{ text: "css", link: "/poem/css" }],
+        items: [{ text: "css", link: "/web-frontend/css" }],
       },
       {
         text: "408",
-        items: [{ text: "数据结构", link: "408/data-structure" }],
+        items: [{ text: "数据结构", link: "/408/data-structure" }],
       },
       { text: "其他的东西", link: "/else" },
     ],
