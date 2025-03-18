@@ -4,6 +4,7 @@ import { set_sidebar } from "./utils/auto_sidebar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/logo.png" }]],
+  base: "./",
   title: "我的博客",
   description: "A VitePress Site",
   themeConfig: {
