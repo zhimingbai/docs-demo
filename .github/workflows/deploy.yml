@@ -45,3 +45,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3 # 直接部署到 Pages
         with:
           path: .vitepress/dist # 构建输出目录
+      # 在 build 工作流的最后一步，明确指定部署目录
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .vitepress/dist # 必须与 GitHub Pages 的 "Folder" 设置一致
+          output-name: vitepress # 可选，用于区分不同环境
