@@ -4,6 +4,7 @@ import { set_sidebar } from "./utils/auto_sidebar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/logo.png" }]],
+  base: "/docs-demo/",
   title: "我的博客",
   description: "A VitePress Site",
   themeConfig: {
@@ -19,11 +20,11 @@ export default defineConfig({
       // { text: "Home", link: "/" },
       {
         text: "前端",
-        items: [{ text: "css", link: "/poem/css" }],
+        items: [{ text: "css", link: "/web-frontend/css" }],
       },
       {
         text: "408",
-        items: [{ text: "数据结构", link: "408/data-structure" }],
+        items: [{ text: "数据结构", link: "/408/data-structure" }],
       },
       { text: "其他的东西", link: "/else" },
     ],
