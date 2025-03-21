@@ -26,6 +26,10 @@ export default defineConfig({
         text: "408",
         items: [{ text: "数据结构", link: "/408/data-structure" }],
       },
+      {
+        text: "CS必备",
+        items: [{ text: "Linux基础", link: "/cs/Linux.md" }],
+      },
       { text: "其他的东西", link: "/else" },
     ],
 

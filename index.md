@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "白芷茗"
-  text: "的个人博客"
+  text: "的个人知识文档"
   tagline: 我是学习两年半的前端萌新，Ciallo～(∠・ω< )⌒★
   image:
     src: /background.png
