@@ -24,7 +24,13 @@ export default defineConfig({
       },
       {
         text: "408",
-        items: [{ text: "数据结构", link: "/408/data-structure" }],
+        items: [
+          { text: "数据结构", link: "/408/data-structure" },
+          {
+            text: "散列表",
+            link: "/408/hash-table",
+          },
+        ],
       },
       {
         text: "CS必备",

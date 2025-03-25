@@ -54,3 +54,6 @@ local.*
 docs/.vitepress/dist/
 
 .vscode
+
+.vitepress/dist
+.vitepress/cache
