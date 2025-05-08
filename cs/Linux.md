@@ -328,5 +328,4 @@ command1 | command2 | command3 ...
 [bai@localhost ~]$ cat text.txt | grep "itcast"
 itheima is a brand of itcast.
 itcast stock code is 003032.
-
 ```
