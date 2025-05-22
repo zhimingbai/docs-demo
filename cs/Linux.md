@@ -495,6 +495,6 @@ drwxr-xr-x. 2 bai bai   6 Mar 15 20:04 Videos
 
 其中，第一列是文件 文件夹的控制权限，第二列是文件大小，第三列是文件 文件夹所属用户，第四列是文件 文件夹所属用户组。
 
-![image-20250522102729547](D:\code\前端\docs\docs-demo\cs\assets\image-20250522102729547.png)
+![image-20250522102729547](assets/image-20250522102729547.png)
 
-![image-20250522102801897](D:\code\前端\docs\docs-demo\cs\assets\image-20250522102801897.png)
+![image-20250522102801897](assets/image-20250522102801897.png)
