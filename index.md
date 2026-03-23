@@ -16,12 +16,12 @@ hero:
       text: markdown语法测试文件
       link: /markdown-test
 
-features:
-  - title: Feature A
-    details: 特征1的描述
-  - title: Feature B
-    details: 特征1的描述
-  - title: Feature C
-    details: 特征1的描述
+#features:
+#  - title: Feature A
+#    details: 特征1的描述
+#  - title: Feature B
+#    details: 特征1的描述
+#  - title: Feature C
+#    details: 特征1的描述
 ---
 

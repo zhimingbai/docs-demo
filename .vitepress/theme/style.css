@@ -176,3 +176,10 @@
   padding-top: 24px;
   border: none;
 }
+
+/* .vitepress/theme/style.css */
+mark {
+  background: linear-gradient(120deg, #ffeaa7 0%, #ffeaa7 100%);
+  padding: 2px 4px;
+  border-radius: 3px;
+}

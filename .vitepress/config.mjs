@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { set_sidebar } from "./utils/auto_sidebar";
+import markdownItMark from "markdown-it-mark"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,6 +8,11 @@ export default defineConfig({
   base: "/docs-demo/",
   title: "我的博客",
   description: "A VitePress Site",
+  markdown: {
+    config: (md) => {
+      md.use(markdownItMark)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
@@ -25,11 +31,9 @@ export default defineConfig({
       {
         text: "408",
         items: [
-          { text: "数据结构", link: "/408/data-structure" },
-          {
-            text: "散列表",
-            link: "/408/hash-table",
-          },
+          {text: "计算机操作系统1",link: "/408/计算机操作系统1"},
+          {text: "计算机操作系统2",link: "/408/计算机操作系统2"},
+          {text: "计算机操作系统3",link: "/408/计算机操作系统3"},
         ],
       },
       {
